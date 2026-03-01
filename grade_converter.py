@@ -1,8 +1,9 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Elizabeth Mautz
+# DATE: February 28, 2026
+# BRIEF DESCRIPTION: ask user for percentage
+# convert into letter grade
 
 
 
@@ -15,22 +16,29 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
+print("===== Grade Converter =====")
+grade = int(input("Enter a numerical grade (1-100): "))
 
-percent = int(input('Enter a numerical grade (1-100): '))
-
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
+if grade > 100:
+    print("A+")
+elif grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 65:
+    print("D")
 else:
-    print('F')
+    print("F")
+
+
+
+
+
+
+
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -85,6 +93,9 @@ D
 1. What is something you would tell a future student to be careful about when
    doing this lab?
 
+Be careful about the ranges and making sure the end number of a range is either included or 
+excluded depending on the cut off for the different number to letter conversions. Also, make
+sure to not leave any numerical values out that should be included. 
 
 
 
